@@ -2,42 +2,6 @@
 
 Code Editor is a versatile web application that enables users to write, edit, and visualize HTML, CSS, and JavaScript code in real-time. It's built using React.js and provides a user-friendly interface for web developers and enthusiasts to experiment with and showcase their coding skills.
 
-![Code Editor Screenshot](screenshot 1.png)
-
-## Features
-
-- **Interactive Code Editing:** Separate input sections for HTML, CSS, and JavaScript, allowing you to focus on each aspect of your code.
-
-- **Real-Time Output:** As you type or edit your code, the rendered output is displayed instantly, making it easy to see the results of your changes.
-
-- **Save Your Code:** The application allows you to save your code, making it easy to return to your work later or share it with others.
-
-- **Lock/Unlock Editor:** You can lock the editor to prevent further changes or unlock it to continue editing.
-
-- **Copy Code:** Each input section has a copy button to quickly copy the code to your clipboard for sharing or saving.
-
-- **Responsive Design:** The application is designed to work seamlessly on both mobile and desktop screens.
-
-## Getting Started
-
-To get started with the Code Editor, follow these steps:
-
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/your-username/code-editor.git
-   cd code-editor
-   ```
-
-Certainly! Here's a more detailed README.md file for your Code Editor project:
-
-markdown
-Copy code
-
-# Code Editor
-
-Code Editor is a versatile web application that enables users to write, edit, and visualize HTML, CSS, and JavaScript code in real-time. It's built using React.js and provides a user-friendly interface for web developers and enthusiasts to experiment with and showcase their coding skills.
-
 ![Main Screen](screenshot1.png)
 
 ## Features
