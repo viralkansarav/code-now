@@ -38,7 +38,7 @@ Copy code
 
 Code Editor is a versatile web application that enables users to write, edit, and visualize HTML, CSS, and JavaScript code in real-time. It's built using React.js and provides a user-friendly interface for web developers and enthusiasts to experiment with and showcase their coding skills.
 
-![Code Editor Screenshot](screenshot 1.png)
+![Main Screen](screenshot1.png)
 
 ## Features
 
@@ -46,9 +46,12 @@ Code Editor is a versatile web application that enables users to write, edit, an
 
 - **Real-Time Output:** As you type or edit your code, the rendered output is displayed instantly, making it easy to see the results of your changes.
 
+![Implementing Features](screenshot2.png)
+
 - **Save Your Code:** The application allows you to save your code, making it easy to return to your work later or share it with others.
 
 - **Lock/Unlock Editor:** You can lock the editor to prevent further changes or unlock it to continue editing.
+  ![Lock Functionality](screeenshot3.png)
 
 - **Copy Code:** Each input section has a copy button to quickly copy the code to your clipboard for sharing or saving.
 
