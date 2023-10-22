@@ -1,0 +1,148 @@
+
+.code-editor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: darkslategray
+       
+}
+
+.editor-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    height: 5vh;
+    
+}
+.saveBtn{
+    width: 5%;
+    height: 80%;
+    font-size: 15px;
+    background-color: green;
+    color: whitesmoke;
+}
+
+.editor-container {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+     /* background: rgba(255, 255, 255, 0.2); */
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+   
+}
+
+.input-header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.editor-input {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px;
+    /* background-color: white; */
+    /* border: 1px solid #ccc; */
+    /* border-radius: 8px; */
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+    h2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6px;
+    }
+        .htmlDesign{
+            border-radius: 7px;
+            background-color: red;
+            padding: 4px;
+            text-align: center;
+            align-items: center;
+            width: 25px;
+            font-size: 20px;
+            padding-bottom: 4px;
+            margin-right: 3px;
+        }
+.cssDesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+        background-color: lightblue;
+        width: 7%;
+        font-size: 20px;
+        padding-top: 4px;
+margin-right: 3px;
+    }
+.jsDesign{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
+        background-color: yellow;
+        width: 7%;
+        font-size: 20px;
+        padding-bottom: 4px;
+        margin-right: 3px;
+}
+.copy-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 6px;
+}
+
+.copy-button:hover {
+    background-color: #555;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 10px;
+    font-family: 'Courier New', monospace;
+    resize: none;
+}
+.rotated-text {
+    transform: rotate(-90deg);
+    transform-origin: left bottom;
+    position: absolute;
+    left: 5px;
+    bottom: 50%;
+    /* Adjust this value as needed */
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+}
+.output {
+    margin-top: 10px;
+    flex: 1;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow-y: auto;
+}
